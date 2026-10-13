@@ -1,0 +1,15 @@
+title: Project Architecture
+description: How I design and build my projects, end to end.
+url: "https://isthiscoder.github.io"
+baseurl: "/Projects-Architecture"
+home_url: "https://mavsidd.carrd.co"
+author: Siddharth Singh
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+future: true
+
+exclude:
+  - README.md
+  - LICENSE

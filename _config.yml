@@ -2,7 +2,7 @@ title: Project Architecture
 description: How I design and build my projects, end to end.
 url: "https://architecture.isidd.dev"
 baseurl: ""
-home_url: "https://mavsidd.carrd.co"
+home_url: "https://architecture.isidd.dev"
 author: Siddharth Singh
 
 markdown: kramdown

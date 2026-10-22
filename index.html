@@ -7,7 +7,7 @@ layout: default
 {%- endcomment -%}
 {%- assign start = paginator.page | minus: 1 | times: paginator.per_page -%}
 <header class="intro">
-  <h1 class="page-title">{{ site.title }}</h1>
+    <h1 class="page-title">{{ site.heading | default: site.title }}</h1>
   <p class="lede">{{ site.description }}</p>
   <p class="count">{{ paginator.total_posts }} {% if paginator.total_posts == 1 %}entry{% else %}entries{% endif %}{% if paginator.total_pages > 1 %} · page {{ paginator.page }} of {{ paginator.total_pages }}{% endif %}</p>
 </header>
